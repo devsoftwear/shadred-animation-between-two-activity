@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity"
+    android:background="#D1CFCF">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Kishor Talukdar"
+            android:textColor="#123"
+            android:textSize="18dp"
+            android:transitionName="textTransation"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:layout_marginBottom="20dp"
+        android:padding="15sp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/newpic"
+        android:transitionName="imageTransation"
+        android:layout_centerHorizontal="true">
+
+
+    </ImageView>
+
+
+
+
+</RelativeLayout>
